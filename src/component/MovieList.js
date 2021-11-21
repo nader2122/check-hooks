@@ -10,6 +10,8 @@ const MovieList = ({ movies, onDelete, search , rate }) => {
           movie.movieName.toLowerCase().includes(search.toLowerCase().trim())
         )
         .filter((movie)=> movie.rating >= rate)
+
+        
      
         .map((movie) => (
           <div key={movie.id} className="card">

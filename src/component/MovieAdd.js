@@ -39,7 +39,7 @@ const MovieAdd = ({onAdd}) => {
 
               <label>Image
 
-              <input type="url" src={imgSrc} alt="cov" 
+              <input src={imgSrc} alt="cov" 
               placeholder="https://..."
               onChange={(e)=>setImgSrc(e.target.value)} />
               
